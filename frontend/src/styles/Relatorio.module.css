@@ -1,0 +1,93 @@
+.header {
+  margin-bottom: 28px;
+}
+
+.pageTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.pageSubtitle {
+  font-size: 12px;
+  color: #737373;
+  margin-top: 2px;
+}
+
+/* ── Seções ─────────────────────────────────────── */
+.section {
+  margin-bottom: 36px;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: #404040;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+/* ── Card de stat ───────────────────────────────── */
+.card {
+  background: #141414;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  padding: 20px 22px;
+}
+
+.cardValue {
+  font-size: 30px;
+  font-weight: 600;
+  color: #f5f5f5;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.cardLabel {
+  font-size: 13px;
+  color: #737373;
+  margin-top: 8px;
+}
+
+/* ── Grid de gráficos ─────────────────────────────── */
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.chartCard {
+  background: #141414;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  padding: 18px 18px 8px;
+}
+
+.chartTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: #d4d4d4;
+  margin-bottom: 4px;
+}
+
+.chartSubtitle {
+  font-size: 11px;
+  color: #737373;
+  margin-bottom: 12px;
+}
+
+.chartEmpty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  color: #404040;
+  font-size: 13px;
+}

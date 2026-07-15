@@ -1,0 +1,226 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.pageTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.pageCount {
+  font-size: 12px;
+  color: #737373;
+  margin-top: 2px;
+}
+
+/* ── Abas ─────────────────────────────────────── */
+.abas {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #262626;
+}
+
+.aba {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #737373;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.aba:hover {
+  color: #d4d4d4;
+}
+
+.abaAtiva {
+  color: #f5f5f5;
+  border-bottom-color: #f5f5f5;
+}
+
+/* ── Filtros ─────────────────────────────────── */
+.filterBar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filterSelect {
+  background: #1c1c1c;
+  border: 1px solid #262626;
+  color: #737373;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.filterSelectActive {
+  color: #d4d4d4;
+}
+
+.filtroData {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filtroDataSeparador {
+  font-size: 12px;
+  color: #737373;
+}
+
+.filtroDataLimpar {
+  background: none;
+  border: none;
+  color: #737373;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 2px;
+}
+
+.filtroDataLimpar:hover {
+  color: #d4d4d4;
+}
+
+/* ── Células da tabela ──────────────────────── */
+.cellId {
+  color: #404040;
+  font-size: 12px;
+}
+
+.cellLeitor {
+  color: #f5f5f5;
+  font-weight: 500;
+}
+
+.cellLivros {
+  color: #737373;
+  font-size: 12px;
+}
+
+.cellVazio {
+  color: #404040;
+}
+
+/* ── Seleção de livros no modal ─────────────── */
+.livrosLabel {
+  font-size: 12px;
+  color: #737373;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.livrosCount {
+  color: #f5f5f5;
+  margin-left: 8px;
+}
+
+.livrosEmpty {
+  padding: 14px;
+  background: #1c1c1c;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #404040;
+}
+
+.livrosList {
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.livroItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  background: #1c1c1c;
+  transition: background 0.1s;
+}
+
+.livroItem:not(:last-child) {
+  border-bottom: 1px solid #262626;
+}
+
+.livroItemSel {
+  background: #242424;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  border: 1.5px solid #404040;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.1s, background 0.1s;
+}
+
+.checkboxSel {
+  border-color: #f5f5f5;
+  background: #f5f5f5;
+}
+
+.checkmark {
+  font-size: 10px;
+  color: #0d0d0d;
+  font-weight: 700;
+}
+
+.livroInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.livroTitulo {
+  font-size: 13px;
+  color: #d4d4d4;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.livroTituloSel {
+  color: #f5f5f5;
+  font-weight: 500;
+}
+
+.livroAutor {
+  font-size: 11px;
+  color: #404040;
+}
+
+.livroDisp {
+  font-size: 11px;
+  color: #404040;
+  flex-shrink: 0;
+}
+
+.modalActions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}

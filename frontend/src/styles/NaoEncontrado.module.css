@@ -1,0 +1,36 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d0d0d;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  padding: 24px;
+}
+
+.codigo {
+  font-size: 80px;
+  font-weight: 700;
+  color: #242424;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.titulo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+.descricao {
+  font-size: 13px;
+  color: #737373;
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+.voltar {
+  margin-top: 8px;
+}
